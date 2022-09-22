@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 hr {
+	border: 0;
+    margin: 0;
+	border-top: 3px solid black;
+}
+
+h1{
+    font-family: sans-serif;
+}
+h3{
+    font-family: sans-serif;
+    color: brown;
+}
+
+h3 hr{
+	border: 0;
+    margin: 0;
+	border-top: 3px solid brown;
+}
+
+div#container {
+    margin: auto;
+    width: min-content;
+}
+
+table#tbCronograma caption{
+    text-align: right;
+    padding: 5px;
+    color: cornflowerblue;
+    font-family: sans-serif;
+}
+
+table#tbCronograma{
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 10px; */
+    /* margin: auto; */
+    border-spacing: 0;
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    box-shadow: 5px 10px 10px gray;
+}
+
+table#tbCronograma th{
+    background-color: firebrick;
+    color:black;
+    padding: 5px 20px 5px 5px;
+    text-align: left;
+}
+table#tbCronograma tr{
+    background-color: rgb(66, 114, 114);
+    color:black;
+}
+table#tbCronograma tbody td:first-child{
+    background-color: bisque;
+    color:black;
+}
+
+table#tbCronograma td{
+    border-spacing: 0px; 
+    padding: 5px 20px 5px 5px;
+    text-align: left;
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+table#tbCronograma tr:nth-child(even){
+    background-color: lightblue;
+}
+    </style>    
+
+<body style="background-color: khaki ;" >
+    <div id="container">
+
+        <h1>Tabela horário<hr></h1>
+        <h3>Horário das Aulas<hr></h3>
+
+        <table id="tbCronograma">
+            <caption>Quadro de horário</caption>
+            <thead>
+                <tr>
+                    <th>Horário</th>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+                    <th>Sábado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>17:20</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>18:10</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>19:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>19:50</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>20:40</td>
+                    <td>Intervalo</td>
+                    <td>Intervalo</td>
+                    <td>Intervalo</td>
+                    <td>Intervalo</td>
+                    <td>Intervalo</td>
+                    <td>Intervalo</td>
+                </tr>
+                <tr>
+                    <td>20:50</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>21:40</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>22:30</td>
+                    <td>Termino</td>
+                    <td>Termino</td>
+                    <td>Termino</td>
+                    <td>Termino</td>
+                    <td>Termino</td>
+                    <td>Termino</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Horário</th>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+                    <th>Sábado</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
